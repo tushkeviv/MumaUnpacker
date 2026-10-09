@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\x64dbg\PluginTemplate-main\src\plugin.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\x64dbg\PluginTemplate-main\src\pluginmain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BreakpointsHandlers.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CbHandlers.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MumaUnpackerWidget.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="build64\moc_MumaUnpackerWidget.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PluginTemplate-main_32\build32\build32\qrc_resources.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\x64dbg\PluginTemplate-main\src\plugin.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\x64dbg\PluginTemplate-main\src\pluginmain.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BreakpointsHandlers.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CbHandlers.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\x64dbg\PluginTemplate-main\CMakeLists.txt" />
+    <CustomBuild Include="..\src\MumaUnpackerWidget.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\x64dbg\PluginTemplate-main\cmake.toml" />
+    <None Include="..\src\README.md">
+      <Filter>src</Filter>
+    </None>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{E9B991FA-8A42-3BD4-B459-A1CEC58C09A4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\src\icon.png">
+      <Filter>src</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

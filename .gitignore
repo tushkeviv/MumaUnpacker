@@ -1,0 +1,38 @@
+# --- Visual Studio ---
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# --- CMake-generated (полностью игнорируем глубокие папки) ---
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+_deps/
+_cmkr_*/
+ALL_BUILD.vcxproj*
+ZERO_CHECK.vcxproj*
+build32/build32/
+build64/build64/
+snapshot_*.zip
+
+# --- Build outputs ---
+Debug/
+Release/
+x64/
+x86/
+*.obj
+*.pdb
+*.ilk
+*.log
+*.tlog
+*.idb
+*.exp
+*.lib
+*.pch
+
+# --- Не игнорируем наши артефакты ---
+!artifacts/
+!artifacts/*.dp32
+!artifacts/*.dp64
